@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Source",
+        "name": "integration-source",
+        "type": "link",
+        "builder_description": "System, mit dem die Devices verbunden sind.",
+        "builder_example": "Philips Hue",
+        "doc_usage":"Beschreibung der Verwendung von Daten einer Plattform in einer anderen."
+    },
+    {
+        "title": "Target",
+        "name": "integration-target",
+        "type": "link",
+        "builder_description": "System, in dem die Daten nach der Integration zur Verfügung stehen.",
+        "builder_example": "Home Assistant"
+    },
+    {
+        "title": "Description",
+        "name": "integration-description",
+        "type": "text",
+        "builder_description": "Freitext Informationen über diese Integration",
+        "builder_example": "Aktuell nutzen wir nur die Integration von Schalter und Lampen",
+        "doc_usage": "Information über diese Integration"
+    }
+]
